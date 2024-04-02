@@ -7,8 +7,8 @@ G0 Z  15.000
 G0 X 120.000 Y 141.000
 
 G91 (Incremental programming)
-F50 (Set speed)
-M203 X100 Y100
+F10 (Set speed)
+M203 X10 Y10
 
 G1 X   0.573 Y  -0.004
 G1 X   0.573 Y  -0.012
@@ -68,7 +68,7 @@ G1 X   0.419 Y  -0.391
 G1 X   0.414 Y  -0.397
 G1 X   0.408 Y  -0.402
 
-G4 S10 (Pause for 10 seconds)
+G4
 
 G1 X   0.402 Y  -0.408
 G1 X   0.397 Y  -0.414
